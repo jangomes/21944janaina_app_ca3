@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">21944janaina_app_ca3</string>
+
+
+    <string name="name0">Linus Torvalds</string>
+    <string name="userName0">torvalds</string>
+    <string name="desc0">microsoft</string>
+
+    <string name="nFollowers0">155k</string>
+    <string name="followers0">followers</string>
+
+    <string name="nFollowing0">2</string>
+    <string name="following0">following</string>
+
+    <string name="business0">Linux fundation</string>
+    <string name="country0">Portland,OR</string>
+
+    <string name="repoName0">Linux</string>
+    <string name="repoDescription0">Things will unfold at precisely the right time.</string>
+    <string name="repoStatus0">Public</string>
+    <string name="language0">C</string>
+    <string name="nLikes0">129k</string>
+    <string name="nShares0">42</string>
+
+
+
+
+
+    <string name="name1">Rich Harris</string>
+    <string name="userName1">Harris</string>
+    <string name="desc1">facebook</string>
+
+    <string name="nFollowers1">155k</string>
+    <string name="followers1">followers</string>
+
+    <string name="nFollowing1">2</string>
+    <string name="following1">following</string>
+
+    <string name="business1">Linux fundation</string>
+    <string name="country1">Portland,OR</string>
+
+    <string name="repoName1">Linux</string>
+    <string name="repoDescription1">Things will unfold at precisely the right time.</string>
+    <string name="repoStatus1">Public</string>
+    <string name="language1">C</string>
+    <string name="nLikes1">129k</string>
+    <string name="nShares1">42</string>
+
+
+
+    <string name="name2">Jake Wharton</string>
+    <string name="userName2">Wharton</string>
+    <string name="desc2">Uber</string>
+    <string name="nFollowers2">155k</string>
+    <string name="followers2">followers</string>
+
+    <string name="nFollowing2">2</string>
+    <string name="following2">following</string>
+
+    <string name="business2">Linux fundation</string>
+    <string name="country2">Portland,OR</string>
+
+    <string name="repoName2">Linux</string>
+    <string name="repoDescription2">Things will unfold at precisely the right time.</string>
+    <string name="repoStatus2">Public</string>
+    <string name="language2">C</string>
+    <string name="nLikes2">129k</string>
+    <string name="nShares2">42</string>
+
+
+
+    <string name="name3">Newton Einstein</string>
+    <string name="userName3">Einstein</string>
+    <string name="desc3">Ultrabot</string>
+
+    <string name="nFollowers3">155k</string>
+    <string name="followers3">followers</string>
+
+    <string name="nFollowing3">2</string>
+    <string name="following3">following</string>
+
+    <string name="business3">Linux fundation</string>
+    <string name="country3">Portland,OR</string>
+
+    <string name="repoName3">Linux</string>
+    <string name="repoDescription3">Things will unfold at precisely the right time.</string>
+    <string name="repoStatus3">Public</string>
+    <string name="language3">C</string>
+    <string name="nLikes3">129k</string>
+    <string name="nShares3">42</string>
+
+
+</resources>

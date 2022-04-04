@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="end"
+    tools:context=".MainActivity"
+    android:background="@drawable/color_background"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <!--    scroll -->
+
+            <!--  begin start-->
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/oneimageView2"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/Circular"
+                app:srcCompat="@drawable/portrait_g84b0d149e_1920"
+                app:strokeWidth="5dp"
+                tools:ignore="ImageContrastCheck" />
+
+            <!--    begin end-->
+
+            <!-- Middle Start -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/oneTextView_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/name1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/oneTextView_Username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/userName1"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/oneimageView_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_people_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"
+                        />
+
+                    <TextView
+                        android:id="@+id/oneText_nFollowers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/nFollowers0"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/oneText_followers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/followers0"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_nFollowing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/nFollowing0"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/oneText_following"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/following0"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/oneimageView_building"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_building_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_orgnames0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/business0"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/oneimageView_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_location_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/onename_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/country0"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- Middle END -->
+
+
+            <!-- Box 1 Start-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/shadow">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/oneText_repository"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/repoName0"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/oneText_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="290dp"
+                        android:layout_marginEnd="5dp"
+                        android:gravity="center"
+                        android:text="@string/repoStatus0"
+                        android:textColor="@color/white"
+                        android:background="@drawable/shadow"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/oneText_repDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/repoDescription0"
+                    android:textColor="@color/white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+                    <ImageView
+                        android:id="@+id/oneimageView_dot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_building_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/language0"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/oneimageView_star"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        app:srcCompat="@drawable/ic_star_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/nLikes0"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/oneimageShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        app:srcCompat="@drawable/ic_share_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_sharing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/nShares0"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- Box 1 End-->
+
+            <!-- Box 2 Start-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/shadow">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/oneText_repository2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/repoName0"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/oneText_status2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="290dp"
+                        android:layout_marginEnd="5dp"
+                        android:gravity="center"
+                        android:text="@string/repoStatus0"
+                        android:textColor="@color/white"
+                        android:background="@drawable/shadow"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/oneText_repDescription2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/repoDescription0"
+                    android:textColor="@color/white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+                    <ImageView
+                        android:id="@+id/oneimageView_dot2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_building_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_language2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/language0"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/oneimageView_star2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        app:srcCompat="@drawable/ic_star_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_like2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/nLikes0"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/oneimageShare2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        app:srcCompat="@drawable/ic_share_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_sharing2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/nShares0"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- Box 2 END-->
+
+            <!-- Box 3 Start-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/shadow">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/oneText_repository3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/repoName0"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/oneText_status3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="290dp"
+                        android:layout_marginEnd="5dp"
+                        android:gravity="center"
+                        android:text="@string/repoStatus0"
+                        android:textColor="@color/white"
+                        android:background="@drawable/shadow"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/oneText_repDescription3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/repoDescription0"
+                    android:textColor="@color/white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+                    <ImageView
+                        android:id="@+id/oneimageView_dot3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_building_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_language3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/language0"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/oneimageView_star3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        app:srcCompat="@drawable/ic_star_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_like3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/nLikes0"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/oneimageShare3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        app:srcCompat="@drawable/ic_share_svgrepo_com"
+                        tools:ignore="ImageContrastCheck,UseAppTint"
+                        android:tint="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/oneText_sharing3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:text="@string/nShares0"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!-- Box 3 END-->
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

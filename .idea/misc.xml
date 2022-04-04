@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jan_n/AndroidStudioProjects/21944janaina_app_ca3/app/src/main/res/drawable-v24/color_background.xml" value="0.1595" />
+        <entry key="..\:/Users/jan_n/AndroidStudioProjects/21944janaina_app_ca3/app/src/main/res/drawable-v24/shadow.xml" value="0.1595" />
+        <entry key="..\:/Users/jan_n/AndroidStudioProjects/21944janaina_app_ca3/app/src/main/res/drawable/shadow.xml" value="0.1005" />
+        <entry key="..\:/Users/jan_n/AndroidStudioProjects/21944janaina_app_ca3/app/src/main/res/layout/activity_fourth.xml" value="0.25" />
+        <entry key="..\:/Users/jan_n/AndroidStudioProjects/21944janaina_app_ca3/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/jan_n/AndroidStudioProjects/21944janaina_app_ca3/app/src/main/res/layout/activity_second.xml" value="0.264" />
+        <entry key="..\:/Users/jan_n/AndroidStudioProjects/21944janaina_app_ca3/app/src/main/res/layout/activity_third.xml" value="0.176" />
+        <entry key="..\:/Users/jan_n/AndroidStudioProjects/21944janaina_app_ca3/app/src/main/res/layout/layout_git_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/jan_n/AndroidStudioProjects/21944janaina_app_ca3/app/src/main/res/layout/reciclerview_test.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
